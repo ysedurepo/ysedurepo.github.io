@@ -1,6 +1,5 @@
 baseURL: "https://ysedurepo.github.io/"
 title: youssadi
-paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
