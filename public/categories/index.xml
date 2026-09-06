@@ -2,15 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on youssadi</title>
-    <link>https://ysedurepo.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on youssadi</description>
     <image>
       <title>youssadi</title>
-      <url>https://ysedurepo.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://ysedurepo.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://ysedurepo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Sep 2026 22:40:53 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Développement</title>
+      <link>http://localhost:1313/categories/d%C3%A9veloppement/</link>
+      <pubDate>Sun, 06 Sep 2026 22:40:53 +0100</pubDate>
+      <guid>http://localhost:1313/categories/d%C3%A9veloppement/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
