@@ -2,52 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>youssadi</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ysedurepo.github.io/</link>
     <description>Recent content on youssadi</description>
     <image>
       <title>youssadi</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://ysedurepo.github.io/images/profil_saadi.jpeg</url>
+      <link>https://ysedurepo.github.io/images/profil_saadi.jpeg</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2026 22:40:53 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ysedurepo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Probabilities Calibration</title>
-      <link>http://localhost:1313/posts/probabilities-calibration/</link>
+      <title>Curriculum Vitæ</title>
+      <link>https://ysedurepo.github.io/cv/</link>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://ysedurepo.github.io/cv/</guid>
+      <description>CV of Youssef Saadi — Associate Professor of Artificial Intelligence and Computer Vision at Sultan Moulay Slimane University, Beni Mellal, Morocco.</description>
+    </item>
+    <item>
+      <title>Probability Calibration in Machine Learning: A Practical Introduction</title>
+      <link>https://ysedurepo.github.io/posts/probabilities-calibration/</link>
       <pubDate>Sun, 06 Sep 2026 22:40:53 +0100</pubDate>
-      <guid>http://localhost:1313/posts/probabilities-calibration/</guid>
-      <description>&lt;h2 id=&#34;titre-de-niveau-2-section-principale&#34;&gt;Titre de niveau 2 (Section principale)&lt;/h2&gt;
-&lt;h3 id=&#34;titre-de-niveau-3-sous-section&#34;&gt;Titre de niveau 3 (Sous-section)&lt;/h3&gt;
-&lt;h4 id=&#34;titre-de-niveau-4&#34;&gt;Titre de niveau 4&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Ce texte est en italique&lt;/em&gt; ou &lt;em&gt;ce texte est en italique&lt;/em&gt;
-&lt;strong&gt;Ce texte est en gras&lt;/strong&gt; ou &lt;strong&gt;ce texte est en gras&lt;/strong&gt;
-&lt;del&gt;Ce texte est barré&lt;/del&gt;
-Voici du texte avec du &lt;code&gt;code en ligne&lt;/code&gt; pour une commande ou une variable.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Premier élément&lt;/li&gt;
-&lt;li&gt;Deuxième élément
-&lt;ul&gt;
-&lt;li&gt;Sous-élément indenté&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Autre façon de faire une puce&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;Première étape&lt;/li&gt;
-&lt;li&gt;Deuxième étape&lt;/li&gt;
-&lt;li&gt;Troisième étape&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Voici un lien vers le &lt;a href=&#34;https://gohugo.io&#34;&gt;site officiel de Hugo&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://ysedurepo.github.io/posts/probabilities-calibration/</guid>
+      <description>A practical introduction to probability calibration in machine learning, explaining model confidence, reliability, and calibration techniques.</description>
     </item>
     <item>
       <title>My 1st post</title>
-      <link>http://localhost:1313/posts/test/</link>
+      <link>https://ysedurepo.github.io/posts/test/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
+      <guid>https://ysedurepo.github.io/posts/test/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>

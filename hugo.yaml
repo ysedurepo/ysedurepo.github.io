@@ -13,11 +13,11 @@ minify:
 
 params:
   env: production
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  title: Youssef Saadi
+  description: "Youssef Saadi — Associate Professor at Sultan Moulay Slimane University, Beni Mellal, Morocco. Artificial Intelligence and Computer Vision."
+  keywords: [Youssef Saadi, Artificial Intelligence, Computer Vision, Machine Learning, Sultan Moulay Slimane University, Beni Mellal, Morocco]
+  author: Youssef Saadi
+  images: ["/images/profil_saadi.jpeg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -46,9 +46,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "Youssef Saadi"
 
   profileMode:
     enabled: false
@@ -65,16 +63,43 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Hi there 👋"
-    Content: Welcome to my blog
+    Title: "Youssef Saadi"
+    Content: |
+      <img src="/images/profil_saadi.jpeg" alt="Youssef Saadi" width="150" height="150"
+           style="float:left;width:150px;height:150px;border-radius:50%;object-fit:cover;margin:0.25rem 1.5rem 1rem 0;" />
+
+      I am an **Associate Professor** at **Sultan Moulay Slimane University** in Beni Mellal,
+      Morocco, where I teach and carry out research in **Artificial Intelligence** and
+      **Computer Vision**.
+
+      This site is where I write about the things I work on — machine learning, deep learning,
+      and the practical side of building models that behave the way we expect them to.
+
+      - 📄 [Read my CV](/cv/)
+      - 🎓 [Google Scholar](https://scholar.google.com/citations?user=unRNz4QAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Youssef-Saadi) · [ORCID](https://orcid.org/0000-0002-1351-3935)
+      - 💼 [LinkedIn](https://www.linkedin.com/in/youssef-saadi-84927817) · [Personal site](https://sites.google.com/view/ysaadi/home)
+      - ✉️ [y.saadi@usms.ma](mailto:y.saadi@usms.ma)
+      - ☎️ [+212 661 438 421](tel:+212661438421)
+      - 📍 Sultan Moulay Slimane University, Beni Mellal, Morocco
+
+      <div style="clear:both;"></div>
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    - name: email
+      url: "mailto:y.saadi@usms.ma"
+    - name: phone
+      url: "tel:+212661438421"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=unRNz4QAAAAJ&hl=en"
+    - name: researchgate
+      url: "https://www.researchgate.net/profile/Youssef-Saadi"
+    - name: orcid
+      url: "https://orcid.org/0000-0002-1351-3935"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/youssef-saadi-84927817"
+    - name: cv
+      title: "Personal site"
+      url: "https://sites.google.com/view/ysaadi/home"
 
   analytics:
     google:
@@ -114,12 +139,27 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    - identifier: cv
+      name: cv
+      url: /cv/
+      weight: 5
 
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
+  goldmark:
+    renderer:
+      # required so the raw <img> in params.homeInfoParams.Content is not stripped
+      unsafe: true
+    passthrough:
+      delimiters:
+        block:
+          - - $$
+            - $$
+        inline:
+          - - $
+            - $
+    
+    
+  
